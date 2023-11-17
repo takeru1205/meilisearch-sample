@@ -1,0 +1,19 @@
+version: '3'
+services:
+  meilisearch:
+    image: getmeili/meilisearch:latest
+    container_name: 'meili'
+    environment:
+      - DISPLAY=$DISPLAY
+    ports:
+      - 7700:7700
+    volumes:
+      - ./data.ms:/data.ms
+
+  app:
+    build: .
+    container_name: 'app'
+    volumes:
+      - ./:/app
+    depends_on:
+      - meilisearch
