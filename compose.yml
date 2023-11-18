@@ -17,3 +17,6 @@ services:
       - ./:/app
     depends_on:
       - meilisearch
+    ports:
+      - 8501:8501
+    command: streamlit run app.py

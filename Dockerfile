@@ -4,6 +4,12 @@ ARG TZ=Asia/Tokyo
 
 WORKDIR /app
 
+COPY requirements.txt ./
+RUN pip install --no-cache-dir -r requirements.txt
+
 RUN pip install meilisearch
 
-CMD ["python", "/app/main.py"]
+EXPOSE 8501
+
+# CMD ["python", "/app/main.py"]
+CMD ["streamlit", "run", "app.py"]
