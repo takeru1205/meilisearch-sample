@@ -1,0 +1,5 @@
+streamlit
+requests
+meilisearch
+streamlit-keyup
+pandas
