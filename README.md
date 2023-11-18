@@ -4,4 +4,6 @@
 アニメデータベース: http://lain.gr.jp/mediadb
 
 
-[!['None'](https://github.com/takeru1205/meilisearch-sample/assets/20464437/77d2a547-292a-4f46-8c52-4da6c6cac5ae)](https://youtu.be/xVbzxGkAQdk)
+
+https://github.com/takeru1205/meilisearch-sample/assets/20464437/c7fa4cdf-a059-47b7-989b-091f61c8f27d
+
